@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "displayName": "resume",
+  "expo": {
+    "name": "resume",
+    "slug": "resume",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "version": "1.0.0",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
