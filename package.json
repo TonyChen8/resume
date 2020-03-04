@@ -4,13 +4,17 @@
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "expo build:web && yarn gh-pages -d web-build"
   },
+  "homepage": "https://tonychen8.github.io/resume",
   "dependencies": {
     "expo": "~36.0.0",
     "expo-constants": "^8.0.0",
     "expo-font": "^8.0.0",
+    "gh-pages": "^2.2.0",
     "global": "^4.4.0",
+    "http-server": "^0.12.1",
     "pubsub-js": "^1.8.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
