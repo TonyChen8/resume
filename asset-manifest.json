@@ -1,0 +1,21 @@
+{
+  "app.js": "/resume/static/js/app.4e1faa9e.chunk.js",
+  "app.a1529abd1dd442777407.map": "/resume/a1529abd1dd442777407.map",
+  "runtime~app.js": "/resume/static/js/runtime~app.0979135c.js",
+  "runtime~app.510d00d29cbfe5a33d40.map": "/resume/510d00d29cbfe5a33d40.map",
+  "static/js/2.3d3d2b5d.chunk.js": "/resume/static/js/2.3d3d2b5d.chunk.js",
+  "f320b6197e81afeab5ad.map": "/resume/f320b6197e81afeab5ad.map",
+  "apple/icons/icon_192x192.png": "/resume/apple/icons/icon_192x192.png",
+  "apple/icons/icon_512x512.png": "/resume/apple/icons/icon_512x512.png",
+  "expo-service-worker.js": "/resume/expo-service-worker.js",
+  "expo-service-worker.js.gz": "/resume/expo-service-worker.js.gz",
+  "favicon.ico": "/resume/favicon.ico",
+  "index.html": "/resume/index.html",
+  "manifest.json": "/resume/manifest.json",
+  "precache-manifest.16adba8089e5eccea8c71cd561dcb20d.js": "/resume/precache-manifest.16adba8089e5eccea8c71cd561dcb20d.js",
+  "serve.json": "/resume/serve.json",
+  "service-worker.js": "/resume/service-worker.js",
+  "static/js/2.3d3d2b5d.chunk.js.gz": "/resume/static/js/2.3d3d2b5d.chunk.js.gz",
+  "static/js/app.4e1faa9e.chunk.js.gz": "/resume/static/js/app.4e1faa9e.chunk.js.gz",
+  "static/js/runtime~app.0979135c.js.gz": "/resume/static/js/runtime~app.0979135c.js.gz"
+}
