@@ -12,6 +12,21 @@ import TCL from "./TCL";
 import Moons from "./Moons";
 import Education from "./Education";
 
+const Title = () => {
+  return (
+    <View>
+      <Text
+        style={styles()
+          .bold()
+          .marginb(5)}
+      >
+        About Me
+      </Text>
+      <Separator style={styles().marginb(25)}></Separator>
+    </View>
+  );
+};
+
 const Summary = () => {
   return (
     <Text
@@ -21,9 +36,7 @@ const Summary = () => {
         .marginb(30)}
     >
       Meticulous web developer with over 3 years of front end experience and passion for
-      responsive website design and a firm believer in the mobile-first approach. W3C
-      certified. Implemented new responsive website approach which increased mobile
-      traffic by 20%.
+      responsive website design and a firm believer in the mobile-first approach.
     </Text>
   );
 };
@@ -36,7 +49,7 @@ const Experience = () => {
           .bold()
           .marginb(5)}
       >
-        Experience:
+        Experience
       </Text>
       <Separator style={styles().marginb(25)}></Separator>
       <Hyphenio></Hyphenio>
@@ -56,6 +69,9 @@ export default () => {
         .paddingh(29)
         .paddingv(29)}
     >
+      <Mobile>
+        <Title></Title>
+      </Mobile>
       <Summary></Summary>
       <Experience></Experience>
     </View>

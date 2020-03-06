@@ -3,7 +3,8 @@ import { useMediaQuery } from "react-responsive";
 import matchMedia from "matchmediaquery";
 import { reStyle } from "./index";
 
-const desktop = { minWidth: 992 };
+// const desktop = { minWidth: 992 };
+const desktop = { minWidth: 768 };
 const tablet = { minWidth: 768, maxWidth: 991 };
 const mobile = { maxWidth: 767 };
 const normal = { minWidth: 768 };

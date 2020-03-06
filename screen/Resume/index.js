@@ -47,10 +47,15 @@ export default class App extends Base {
           .container()
           .column()}
       >
-        <View>
-          <Experience></Experience>
+        <View
+          style={styles()
+            .paddingh(29)
+            .paddingt(30)}
+        >
+          <PersonalInfo></PersonalInfo>
+          <Skills></Skills>
         </View>
-        <PersonalInfo></PersonalInfo>
+        <Experience></Experience>
       </View>
     );
   }

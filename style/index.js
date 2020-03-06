@@ -6,14 +6,16 @@ const designWidth = 1240;
 const designHeight = 1754;
 
 let pointToPxFactor;
-let fontCalibration = 0.95;
+let fontCalibration = 1;
 let timer = null;
 
 export const reStyle = () => {
   const width = Math.round(Dimensions.get("window").width);
   const height = Math.round(Dimensions.get("window").height);
 
-  pointToPxFactor = Math.min(1, (1 * width) / designWidth); //this is for converting size from XD design to real device.
+  // pointToPxFactor = Math.min(1, (1 * width ) / designWidth); //this is for converting size from XD design to real device.
+
+  pointToPxFactor = Math.max(0.6, width / designWidth); //this is for converting size from XD design to real device.
 
   console.log(".js:6", width, height, pointToPxFactor);
 
