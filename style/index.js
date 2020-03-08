@@ -15,7 +15,7 @@ export const reStyle = () => {
 
   // pointToPxFactor = Math.min(1, (1 * width ) / designWidth); //this is for converting size from XD design to real device.
 
-  pointToPxFactor = Math.max(0.6, width / designWidth); //this is for converting size from XD design to real device.
+  pointToPxFactor = 0.6 * Math.max(1, width / designWidth); //this is for converting size from XD design to real device.
 
   console.log(".js:6", width, height, pointToPxFactor);
 
@@ -194,11 +194,11 @@ class style {
   }
 
   minW(w) {
-    typeof w === "number" ? (this.minWidth = w * pointToPxFactor) : (this.minWidth = w);
+    this.minWidth = w;
     return this;
   }
   maxW(w) {
-    typeof w === "number" ? (this.maxWidth = w * pointToPxFactor) : (this.maxWidth = w);
+    this.maxWidth = w;
     return this;
   }
 
