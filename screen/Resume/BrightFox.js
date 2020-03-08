@@ -15,7 +15,7 @@ const DateRange = () => {
     <View style={styles().w(130)}>
       <Text style={boldStyle()}>OCT-2016 -</Text>
       <Text style={boldStyle()}>DEC-2017</Text>
-      <Text style={styles().ftSize(16)}>(14 months)</Text>
+      <Text style={styles().ftSize(16)}>(1 year 2 months)</Text>
     </View>
   );
 };
