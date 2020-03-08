@@ -12,16 +12,16 @@ self.__precacheManifest = [
     "url": "/resume/static/js/2.3d3d2b5d.chunk.js"
   },
   {
+    "revision": "7a7bc7ead25db795e58b336f04d2624c",
+    "url": "/resume/favicon.ico"
+  },
+  {
     "revision": "d0c694b562b2208635f250762cd7fc79",
     "url": "/resume/serve.json"
   },
   {
     "revision": "48c7ed4e7da9792af288a60d7242d615",
     "url": "/resume/expo-service-worker.js"
-  },
-  {
-    "revision": "7a7bc7ead25db795e58b336f04d2624c",
-    "url": "/resume/favicon.ico"
   },
   {
     "revision": "432600a021f136cf936c6a906019701b",
