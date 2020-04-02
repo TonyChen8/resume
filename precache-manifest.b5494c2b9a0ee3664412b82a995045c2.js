@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b58220c26965fedfa972",
-    "url": "/resume/static/js/app.b732b052.chunk.js"
+    "revision": "033d78903b45f86fb681",
+    "url": "/resume/static/js/app.e4f4d5b4.chunk.js"
   },
   {
     "revision": "510d00d29cbfe5a33d40",
     "url": "/resume/static/js/runtime~app.0979135c.js"
   },
   {
-    "revision": "6842d188214d66c4f326",
-    "url": "/resume/static/js/2.a3a8913b.chunk.js"
-  },
-  {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/resume/serve.json"
+    "revision": "a249debdc7d888787281",
+    "url": "/resume/static/js/2.d5e18e36.chunk.js"
   },
   {
     "revision": "7a7bc7ead25db795e58b336f04d2624c",
     "url": "/resume/favicon.ico"
+  },
+  {
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/resume/serve.json"
   },
   {
     "revision": "48c7ed4e7da9792af288a60d7242d615",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/resume/apple/icons/icon_512x512.png"
   },
   {
-    "revision": "b2bffacc0387cb62831300e514cf51d6",
+    "revision": "31e864047a50fd08247cd699ceea8c04",
     "url": "/resume/index.html"
   },
   {
@@ -48,11 +48,11 @@ self.__precacheManifest = [
     "url": "/resume/expo-service-worker.js.gz"
   },
   {
-    "revision": "06abf51341fd3c98cdf5ae1e4ff6b52f",
-    "url": "/resume/static/js/app.b732b052.chunk.js.gz"
+    "revision": "1e555218a898e346a9c8fb4f7a7194d5",
+    "url": "/resume/static/js/app.e4f4d5b4.chunk.js.gz"
   },
   {
-    "revision": "102e74ddff28ebcf4f44def5022c95fa",
-    "url": "/resume/static/js/2.a3a8913b.chunk.js.gz"
+    "revision": "c4d0fedaf1cbb0a8c255c17d1e8b1bb1",
+    "url": "/resume/static/js/2.d5e18e36.chunk.js.gz"
   }
 ];
