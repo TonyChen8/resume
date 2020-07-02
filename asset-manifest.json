@@ -1,10 +1,10 @@
 {
-  "app.js": "/resume/static/js/app.e4f4d5b4.chunk.js",
-  "app.033d78903b45f86fb681.map": "/resume/033d78903b45f86fb681.map",
+  "app.js": "/resume/static/js/app.c164224a.chunk.js",
+  "app.b206265597c39a09a06c.map": "/resume/b206265597c39a09a06c.map",
   "runtime~app.js": "/resume/static/js/runtime~app.0979135c.js",
   "runtime~app.510d00d29cbfe5a33d40.map": "/resume/510d00d29cbfe5a33d40.map",
-  "static/js/2.d5e18e36.chunk.js": "/resume/static/js/2.d5e18e36.chunk.js",
-  "a249debdc7d888787281.map": "/resume/a249debdc7d888787281.map",
+  "static/js/2.f1a7afb5.chunk.js": "/resume/static/js/2.f1a7afb5.chunk.js",
+  "fcf606950bdc16d604be.map": "/resume/fcf606950bdc16d604be.map",
   "apple/icons/icon_192x192.png": "/resume/apple/icons/icon_192x192.png",
   "apple/icons/icon_512x512.png": "/resume/apple/icons/icon_512x512.png",
   "expo-service-worker.js": "/resume/expo-service-worker.js",
@@ -12,10 +12,10 @@
   "favicon.ico": "/resume/favicon.ico",
   "index.html": "/resume/index.html",
   "manifest.json": "/resume/manifest.json",
-  "precache-manifest.b5494c2b9a0ee3664412b82a995045c2.js": "/resume/precache-manifest.b5494c2b9a0ee3664412b82a995045c2.js",
+  "precache-manifest.5384647523756cb72c38f72b25e08b3e.js": "/resume/precache-manifest.5384647523756cb72c38f72b25e08b3e.js",
   "serve.json": "/resume/serve.json",
   "service-worker.js": "/resume/service-worker.js",
-  "static/js/2.d5e18e36.chunk.js.gz": "/resume/static/js/2.d5e18e36.chunk.js.gz",
-  "static/js/app.e4f4d5b4.chunk.js.gz": "/resume/static/js/app.e4f4d5b4.chunk.js.gz",
+  "static/js/2.f1a7afb5.chunk.js.gz": "/resume/static/js/2.f1a7afb5.chunk.js.gz",
+  "static/js/app.c164224a.chunk.js.gz": "/resume/static/js/app.c164224a.chunk.js.gz",
   "static/js/runtime~app.0979135c.js.gz": "/resume/static/js/runtime~app.0979135c.js.gz"
 }
