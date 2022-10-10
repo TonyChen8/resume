@@ -49,9 +49,7 @@ jobs:
         run: yarn lintfix
 
       - name: Build 🏗️
-        run: |
-          yarn clean
-          yarn generate
+        run: yarn generate
 
       - name: Deploy to GH Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
