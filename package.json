@@ -1,43 +1,37 @@
 {
+  "name": "cv",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "web": "expo start --web",
-    "start": "react-native start",
-    "test": "jest",
-    "deploy": "expo build:web && yarn gh-pages -d web-build"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:js && yarn lint:prettier",
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
-  "homepage": "https://tonychen8.github.io/resume",
   "dependencies": {
-    "expo": "~36.0.0",
-    "expo-constants": "^8.0.0",
-    "expo-font": "^8.0.0",
-    "gh-pages": "^2.2.0",
-    "global": "^4.4.0",
-    "http-server": "^0.12.1",
-    "pubsub-js": "^1.8.0",
-    "react": "~16.9.0",
-    "react-dom": "~16.9.0",
-    "react-native": "~0.61.4",
-    "react-native-gesture-handler": "~1.5.0",
-    "react-native-reanimated": "~1.4.0",
-    "react-native-screens": "2.0.0-alpha.12",
-    "react-native-unimodules": "~0.7.0",
-    "react-native-web": "~0.11.7",
-    "react-navigation": "^4.0.10",
-    "react-navigation-stack": "^1.10.3",
-    "react-responsive": "^8.0.3",
-    "sharp-cli": "^1.13.1"
+    "@nuxt/content": "^1.0.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
-    "@babel/core": "~7.6.0",
-    "babel-jest": "~24.9.0",
-    "jest": "~24.9.0",
-    "metro-react-native-babel-preset": "~0.56.0",
-    "react-test-renderer": "~16.9.0"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
-  "private": true
+    "@babel/eslint-parser": "^7.19.1",
+    "@nuxtjs/eslint-config": "^11.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "postcss": "^8.4.17",
+    "prettier": "^2.7.1"
+  }
 }
