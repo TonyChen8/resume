@@ -1,0 +1,3 @@
+<template>
+  <div style="margin-bottom: 30px"></div>
+</template>
