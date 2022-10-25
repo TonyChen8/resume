@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/test", (function(a){return {data:[{page:{slug:"test",test:"this is a test string",head:"This is a header",dir:"\u002F",path:"\u002Ftest",extension:".json",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-10-10T14:14:55.497Z")));
